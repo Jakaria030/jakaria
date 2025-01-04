@@ -13,7 +13,7 @@ const Navbar = () => {
     </>;
 
     return (
-        <section className="bg-crimson">
+        <section className="bg-crimson sticky top-0 z-50">
             <nav className="navbar p-0 max-w-7xl mx-auto px-5">
                 {/* left content */}
                 <div className="navbar-start space-x-1 md:space-x-0">
@@ -28,7 +28,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <Link to="/">
-                        <img className="w-8 md:w-12 shadow-lg rounded-full" src={logo}/>
+                        <img className="w-8 md:w-12 shadow-lg rounded-full ring-2 ring-white" src={logo}/>
                     </Link>
                 </div>
 

@@ -21,61 +21,61 @@ const Skills = () => {
                 <div className="text-white pt-5 md:pt-10">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
 
-                        <div className="border rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 transition-all duration-200 ease-in-out">
+                        <div className="bg-[#222222] rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 duration-200">
                             <img src={htmlIcon} />
                             <p className="text-xl">HTML</p>
                         </div>
 
-                        <div className="border rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 transition-all duration-200 ease-in-out">
+                        <div className="bg-[#222222] rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 duration-200">
                             <img src={cssIcon} />
                             <p className="text-xl">CSS</p>
                         </div>
 
-                        <div className="border rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 transition-all duration-200 ease-in-out">
+                        <div className="bg-[#222222] rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 duration-200">
                             <img src={tailwindIcon} />
                             <p className="text-xl">Tailwind CSS</p>
                         </div>
 
-                        <div className="border rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 transition-all duration-200 ease-in-out">
+                        <div className="bg-[#222222] rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 duration-200">
                             <img src={jsIcon} />
                             <p className="text-xl">JavaScript</p>
                         </div>
 
-                        <div className="border rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 transition-all duration-200 ease-in-out">
+                        <div className="bg-[#222222] rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 duration-200">
                             <img src={reactIcon} />
                             <p className="text-xl">React</p>
                         </div>
 
-                        <div className="border rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 transition-all duration-200 ease-in-out">
+                        <div className="bg-[#222222] rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 duration-200">
                             <img src={nodejsIcon} />
                             <p className="text-xl">NodeJS</p>
                         </div>
 
-                        <div className="border rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 transition-all duration-200 ease-in-out">
+                        <div className="bg-[#222222] rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 duration-200">
                             <img src={expressIcon} />
                             <p className="text-xl">ExpressJs</p>
                         </div>
 
-                        <div className="border rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 transition-all duration-200 ease-in-out">
+                        <div className="bg-[#222222] rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 duration-200">
                             <img src={mongoDBIcon} />
                             <p className="text-xl">MongoDB</p>
                         </div>
 
-                        <div className="border rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 transition-all duration-200 ease-in-out">
+                        <div className="bg-[#222222] rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 duration-200">
                             <img src={firebaseIcon} />
                             <p className="text-xl">Firebase</p>
                         </div>
 
-                        <div className="border rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 transition-all duration-200 ease-in-out">
+                        <div className="bg-[#222222] rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 duration-200">
                             <img src={cPlusPlusIcon} />
                             <p className="text-xl">C++</p>
                         </div>
 
-                        <div className="border rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 transition-all duration-200 ease-in-out">
+                        <div className="bg-[#222222] rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 duration-200">
                             <img src={pythonIcon} />
                             <p className="text-xl">Python</p>
                         </div>
-                        <div className="border rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 transition-all duration-200 ease-in-out">
+                        <div className="bg-[#222222] rounded-md p-5 flex flex-col justify-center items-center hover:scale-105 duration-200">
                             <img src={githubIcon} />
                             <p className="text-xl">GitHub</p>
                         </div>
