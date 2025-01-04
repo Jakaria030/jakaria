@@ -1,6 +1,10 @@
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import myImg from "../assets/me.jpeg"
 import { Link } from "react-router-dom";
+import TypewriterComponent from "typewriter-effect";
+import { motion } from "framer-motion";
+
+
 const Banner = () => {
     return (
         <section className="bg-banner py-8 md:py-16">
@@ -11,7 +15,17 @@ const Banner = () => {
                         <div className="space-y-1 md:space-y-3">
                             <p className="text-lg md:text-2xl">Hello, my name is</p>
                             <h2 className="text-3xl md:text-5xl">Gulam Jakaria</h2>
-                            <h3 className="text-xl md:text-3xl">And I'm a Developer</h3>
+                            <h3 className="text-xl md:text-3xl flex gap-2">And I'm a
+                                <span className="text-crimson">
+                                    <TypewriterComponent
+                                        options={{
+                                            strings: ['Programmer', 'Developer', 'Student'],
+                                            autoStart: true,
+                                            loop: true,
+                                        }}
+                                    />
+                                </span>
+                            </h3>
                         </div>
 
                         {/* social links */}
@@ -28,16 +42,27 @@ const Banner = () => {
                         </div>
 
                         <div>
-                        <Link>
-                            <button className="bg-crimson border-2 border-crimson text-white px-4 py-2 rounded-md font-medium hover:bg-transparent transition-all duration-200 ease-in-out">Download CV</button>
-                        </Link>
+                            <a href="/Jakaria-resume.pdf" download="Jakaria-resume.pdf">
+                                <button className="bg-crimson border-2 border-crimson text-white px-4 py-2 rounded-md font-medium hover:bg-transparent transition-all duration-200 ease-in-out active:scale-95">Download CV</button>
+                            </a>
                         </div>
 
                     </div>
 
                     {/* right content */}
                     <div className="basis-1/2 pb-8 sm:pb-0">
-                        <img className="w-52 md:w-80 mx-auto rounded-full shadow-lg border-2 border-crimson" src={myImg} />
+                        {/* <img   /> */}
+                        <motion.img 
+                            animate={{y: [0, -20, 0]}}
+                            transition={{
+                                duration: 3, 
+                                repeat: Infinity, 
+                                repeatType: "loop",
+                                ease: "easeInOut",
+                            }}
+                            src={myImg}
+                            className="w-52 md:w-80 mx-auto rounded-full shadow-lg border-2 border-crimson"
+                        />
                     </div>
                 </div>
             </div>

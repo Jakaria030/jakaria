@@ -5,7 +5,7 @@ import logo from '../assets/logo.png';
 const Navbar = () => {
 
     const links = <>
-        <li><a href="#home">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -41,9 +41,9 @@ const Navbar = () => {
 
                 {/* right content */}
                 <div className="navbar-end">
-                    <Link>
-                        <button className="bg-white px-4 py-2 border-2 border-dark rounded-md font-medium text-dark">Download CV</button>
-                    </Link>
+                    <a href="/Jakaria-resume.pdf" download="Jakaria-resume.pdf">
+                        <button className="bg-white px-4 py-2 border-2 border-dark rounded-md font-medium text-dark active:scale-95">Download CV</button>
+                    </a>
                 </div>
             </nav>
         </section>
