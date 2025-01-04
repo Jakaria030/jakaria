@@ -14,7 +14,7 @@ const Navbar = () => {
 
     return (
         <section className="bg-crimson">
-            <nav className="navbar p-0 max-w-8xl mx-auto px-5">
+            <nav className="navbar p-0 max-w-7xl mx-auto px-5">
                 {/* left content */}
                 <div className="navbar-start space-x-1 md:space-x-0">
                     <div className="dropdown">

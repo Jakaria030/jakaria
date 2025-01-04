@@ -8,9 +8,7 @@ export default {
     extend: {
       fontFamily:{
         "ubuntu": ["Ubuntu", "serif"],
-      },
-      maxWidth: {
-        "8xl": "90rem",
+        "poppins": ["Poppins", "serif"],
       },
       colors: {
         "crimson": "#ed143d",
