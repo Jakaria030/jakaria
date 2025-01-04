@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import("tailwindcss").Config} */
 export default {
   content: [
     "./index.html",
@@ -7,7 +7,14 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        'ubuntu': ["Ubuntu", "serif"],
+        "ubuntu": ["Ubuntu", "serif"],
+      },
+      maxWidth: {
+        "8xl": "90rem",
+      },
+      colors: {
+        "crimson": "#ed143d",
+        "dark": "#111111",
       },
     },
   },
