@@ -16,6 +16,9 @@ export default {
         "crimson": "#ed143d",
         "dark": "#111111",
       },
+      backgroundImage: {
+        "banner": "url('./src/assets/banner.png')",
+      }
     },
   },
   plugins: [require("daisyui")],

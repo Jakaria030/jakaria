@@ -1,14 +1,15 @@
 import { IoMdMenu } from "react-icons/io";
 import { Link } from "react-router-dom";
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
 
     const links = <>
-        <li><Link to="#home">Home</Link></li>
-        <li><Link to="#about">About</Link></li>
-        <li><Link to="#skills">Skills</Link></li>
-        <li><Link to="#projects">Projects</Link></li>
-        <li><Link to="#contact">Contact</Link></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
     </>;
 
     return (
@@ -27,7 +28,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <Link to="/">
-                        <h2 className="text-2xl font-bold text-white">Jakaria</h2>
+                        <img className="w-8 md:w-12 shadow-lg rounded-full" src={logo}/>
                     </Link>
                 </div>
 
@@ -41,7 +42,7 @@ const Navbar = () => {
                 {/* right content */}
                 <div className="navbar-end">
                     <Link>
-                        <button className="bg-white px-4 py-2 rounded-md font-medium text-dark">Download CV</button>
+                        <button className="bg-white px-4 py-2 border-2 border-dark rounded-md font-medium text-dark">Download CV</button>
                     </Link>
                 </div>
             </nav>
