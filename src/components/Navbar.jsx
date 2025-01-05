@@ -3,15 +3,14 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import logo from '../assets/logo.png';
 
 const Navbar = () => {
-    const {hash} = useLocation();
 
     const links = <>
-        <li><Link to="/" className={`${hash === "" && "text-dark"}`}>Home</Link></li>
-        <li><a href="#about" className={`${hash === "#about" && "text-dark"}`}>About</a></li>
-        <li><a href="#skills" className={`${hash === "#skills" && "text-dark"}`}>Skills</a></li>
-        <li><a href="#education" className={`${hash === "#education" && "text-dark"}`}>Education</a></li>
-        <li><a href="#projects" className={`${hash === "#projects" && "text-dark"}`}>Projects</a></li>
-        <li><a href="#contact" className={`${hash === "#contact" && "text-dark"}`}>Contact</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
     </>;
 
     return (
