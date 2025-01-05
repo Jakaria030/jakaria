@@ -13,7 +13,7 @@ const About = () => {
                 </div>
                 <div className="basis-3/4 mx-auto space-y-2">
                     <h2 className="text-2xl font-bold">Aspiring Tech Enthusiast and Problem Solver.</h2>
-                    <p className="text-justify font-poppins">Hi, I'm Gulam Jakaria, an Honour Final year Computer Science and Engineering student with a strong passion for technology and innovation. My journey in tech has led me to work on exciting projects like a hotel booking system, MSA School, and Visa Care etc. I'm deeply enthusiastic about fields like Machine Learning and enjoy diving into competitive programming, where I've achieved the rank of Pupil on Codeforces and a 3-star rating on CodeChef. I'm driven by the desire to create impactful solutions and continuously explore the limitless possibilities of the tech world.</p>
+                    <p className="text-justify font-poppins">Hi, I'm Gulam Jakaria, an Honours final-year Computer Science and Engineering student. My programming journey began after enrolling in the CSE program. During my studies, I developed a passion for competitive programming, achieving the 'Pupil' rank on Codeforces and a 3-star rating on CodeChef. I have solved over 1,500 problems across various online judges, enhancing my problem-solving skills. In my leisure time, I enjoy playing chess, a game that sharpens my strategic thinking and complements my analytical abilities in programming.</p>
                 </div>
             </div>
         </section>

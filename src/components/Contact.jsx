@@ -48,24 +48,24 @@ const Contact = () => {
                 </div>
                 <div className="basis-1/2">
                     <h2 className="text-xl font-bold mb-2">Message Me</h2>
-                    <form className="space-y-3">
+                    <form className="space-y-3" action="https://formsubmit.co/jakariag84@gmail.com" method="POST">
                         <div className="flex flex-col lg:flex-row gap-5">
                             <label className="input input-bordered flex items-center gap-2">
                                 <FaUser className="h-6 w-6 opacity-70" />
-                                <input type="text" className="grow" placeholder="Name" />
+                                <input type="text" name="name" className="grow" placeholder="Name" />
                             </label>
                             <label className="input input-bordered flex items-center gap-2">
                                 <MdMail className="h-6 w-6 opacity-70" />
-                                <input type="email" className="grow" placeholder="Email" />
+                                <input type="email" name="email" className="grow" placeholder="Email" />
                             </label>
                         </div>
                         <label className="input input-bordered flex items-center gap-2">
                             <MdSubject className="h-6 w-6 opacity-70"/>
-                            <input type="text" className="grow" placeholder="Subject" />
+                            <input type="text" name="subject" className="grow" placeholder="Subject" />
                         </label>
 
-                        <textarea className="textarea w-full textarea-bordered" placeholder="Message"></textarea>
-
+                        <textarea name="message" className="textarea w-full textarea-bordered" placeholder="Message"></textarea>
+                        <input type="hidden" name="_template" value="table"></input>
                         <button className="bg-crimson border-2 border-crimson text-white px-4 py-2 rounded-md font-medium hover:bg-transparent transition-all duration-200 ease-in-out active:scale-95 hover:text-dark">Send Message</button>
                     </form>
                 </div>

@@ -20,7 +20,7 @@ const Banner = () => {
                                 <span className="text-crimson">
                                     <TypewriterComponent
                                         options={{
-                                            strings: ['Programmer', 'Developer', 'Student'],
+                                            strings: ['Frontend', 'Developer'],
                                             autoStart: true,
                                             loop: true,
                                         }}

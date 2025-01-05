@@ -15,7 +15,7 @@ export default {
         "dark": "#111111",
       },
       backgroundImage: {
-        "banner": "url('./src/assets/banner.png')",
+        "banner": "url('/src/assets/banner.png')",
       }
     },
   },
