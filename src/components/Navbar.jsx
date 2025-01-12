@@ -42,7 +42,7 @@ const Navbar = () => {
 
                 {/* right content */}
                 <div className="navbar-end">
-                    <a href="/Jakaria-resume.pdf" download="Jakaria-resume.pdf">
+                    <a href="/Gulam-Jakaria-Web-Developer-Resume.pdf" download="Gulam-Jakaria-Web-Developer-Resume.pdf">
                         <button className="bg-white px-4 py-2 border-2 border-dark rounded-md font-medium text-dark active:scale-95">Download CV</button>
                     </a>
                 </div>

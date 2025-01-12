@@ -20,7 +20,7 @@ const Banner = () => {
                                 <span className="text-crimson">
                                     <TypewriterComponent
                                         options={{
-                                            strings: ['Frontend', 'Developer'],
+                                            strings: ['Web', 'Developer'],
                                             autoStart: true,
                                             loop: true,
                                         }}
@@ -44,7 +44,7 @@ const Banner = () => {
                         </div>
 
                         <div>
-                            <a href="/Jakaria-resume.pdf" download="Jakaria-resume.pdf">
+                            <a href="/Gulam-Jakaria-Web-Developer-Resume.pdf" download="Gulam-Jakaria-Web-Developer-Resume.pdf">
                                 <button className="bg-crimson border-2 border-crimson text-white px-4 py-2 rounded-md font-medium hover:bg-transparent transition-all duration-200 ease-in-out active:scale-95">Download CV</button>
                             </a>
                         </div>

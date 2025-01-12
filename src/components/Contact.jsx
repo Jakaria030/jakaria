@@ -31,7 +31,7 @@ const Contact = () => {
                         </figure>
                         <div className="-space-y-1">
                             <h3 className="text-xl font-medium">Address</h3>
-                            <p className="text-lg">Gobra, Gopalganj</p>
+                            <p className="text-lg">Kishoreganj, Bangladesh</p>
                         </div>
                     </div>
 
@@ -41,7 +41,7 @@ const Contact = () => {
                         </figure>
                         <div className="-space-y-1">
                             <h3 className="text-xl font-medium">Email</h3>
-                            <p className="text-lg">jakariag84@gmail.com</p>
+                            <p className="text-lg">gulamjakaria99@gmail.com</p>
                         </div>
                     </div>
 
