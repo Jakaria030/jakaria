@@ -18,15 +18,15 @@ const About = () => {
             Aspiring Tech Enthusiast and Problem Solver.
           </h2>
           <p className="text-justify font-poppins">
-            Hi, I'm Gulam Jakaria, an Honours final-year Computer Science and
-            Engineering student. My programming journey began after enrolling in
-            the CSE program. During my studies, I developed a passion for
-            competitive programming, achieving the 'Pupil' rank on Codeforces
-            and a 3-star rating on CodeChef. I have solved over 1,500 problems
-            across various online judges, enhancing my problem-solving skills.
-            In my leisure time, I enjoy playing chess, a game that sharpens my
-            strategic thinking and complements my analytical abilities in
-            programming.
+            Hi, I'm Gulam Jakaria. I recently completed my Bachelor of Science
+            (B.Sc) degree in Computer Science and Engineering. Throughout my
+            academic journey, I developed a strong interest in competitive
+            programming, achieving the 'Pupil' rank on Codeforces and a 3-star
+            rating on CodeChef. I have solved over 1,500 problems across
+            multiple online platforms, which has significantly strengthened my
+            problem-solving skills. In my leisure time, I enjoy playing chess, a
+            game that enhances my strategic thinking and complements my
+            analytical abilities in programming.
           </p>
         </div>
       </div>
