@@ -20,7 +20,11 @@ const Banner = () => {
                 <span className="text-crimson">
                   <TypewriterComponent
                     options={{
-                      strings: ["Web", "Developer"],
+                      strings: [
+                        "Aspiring Software Engineer",
+                        "Full Stack Developer (MERN)",
+                        "Competitive Programmer",
+                      ],
                       autoStart: true,
                       loop: true,
                     }}
@@ -50,8 +54,8 @@ const Banner = () => {
 
             <div>
               <a
-                href="/Gulam-Jakaria-Web-Developer-Resume.pdf"
-                download="Gulam-Jakaria-Web-Developer-Resume.pdf"
+                href="/Gulam-Jakaria-Aspiring-Software-Engineer-Resume.pdf"
+                download="Gulam-Jakaria-Aspiring-Software-Engineer-Resume.pdf"
               >
                 <button className="bg-crimson border-2 border-crimson text-white px-4 py-2 rounded-md font-medium hover:bg-transparent transition-all duration-200 ease-in-out active:scale-95">
                   Download CV

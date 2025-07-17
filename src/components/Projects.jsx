@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import exploreBangla from "../assets/explore-bangla.png";
 import msa from "../assets/msa.png";
 import seaHeaven from "../assets/sea-haven.png";
-import visaCare from "../assets/visa-care.png";
 import Heading from "./Heading";
 import ProjectCard from "./ProjectCard";
 
@@ -10,6 +10,21 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      name: "Explore Bangla",
+      image: exploreBangla,
+      description:
+        "Explore Bangla is a web-based tourism management system designed to simplify travel planning in Bangladesh. It connects tourists with curated tour packages, trusted guides, and secure online bookings.",
+      frontEnd: "HTML, CSS, Tailwind CSS, React",
+      backEnd: "ExpressJs, NodeJs",
+      database: "MongoDB",
+      authentication: "Firebase, JWT",
+      paymentGateway: "Stripe Payment Gateway",
+      challenges:
+        "One of the challenges I faced while building the Explore Bangla website was implementing Stripe payment integration, which required securely handling sensitive payment information and ensuring smooth and reliable transaction processing.",
+      liveLink: "https://explore-bangla-9f392.web.app/",
+    },
+    {
+      id: 2,
       name: "Sea Haven",
       image: seaHeaven,
       description:
@@ -17,13 +32,14 @@ const Projects = () => {
       frontEnd: "HTML, CSS, Tailwind CSS, React",
       backEnd: "ExpressJs, NodeJs",
       database: "MongoDB",
-      authentication: "Firebase",
+      authentication: "Firebase, JWT",
+      paymentGateway: "N/A",
       challenges:
         "Some challenges in building the Sea Haven website include optimizing the design for showcasing ocean-view hotels and implementing real-time room availability and booking features seamlessly.",
       liveLink: "https://sea-haven-7a097.web.app/",
     },
     {
-      id: 2,
+      id: 3,
       name: "MSA School",
       image: msa,
       description:
@@ -32,23 +48,10 @@ const Projects = () => {
       backEnd: "N/A",
       database: "N/A",
       authentication: "N/A",
+      paymentGateway: "N/A",
       challenges:
         "Some difficulties faced while using the GSAP animation library include managing complex timelines for smooth animations and ensuring compatibility across different browsers and devices.",
       liveLink: "https://msa-school.netlify.app/",
-    },
-    {
-      id: 3,
-      name: "Visa Care",
-      image: visaCare,
-      description:
-        "Visa Care is a web-based platform designed to streamline the visa application process, making it easy for users to check visa requirements and add visa details. This system offers a user-friendly interface to simplify complex visa procedures. The project demonstrates practical solutions for managing visa-related information efficiently.",
-      frontEnd: "HTML, CSS, Tailwind CSS, React",
-      backEnd: "ExpressJs, NodeJs",
-      database: "MongoDB",
-      authentication: "Firebase",
-      challenges:
-        "Some challenges faced while building the Visa Care website include implementing a seamless user experience for form submissions and managing dynamic data, and displaying visa application statuses in real time.",
-      liveLink: "https://visa-care.web.app/",
     },
   ];
 
@@ -65,7 +68,7 @@ const Projects = () => {
       <div className="max-w-7xl mx-auto px-5 py-8 md:py-16">
         <Heading
           heading={"My Projects"}
-          subHeading={"Completed Projects"}
+          subHeading={"Best Three Projects"}
           color={"text-white"}
         ></Heading>
 
@@ -117,6 +120,10 @@ const Projects = () => {
                   <li className="font-poppins">
                     <span className="font-medium">Authentication: </span>{" "}
                     <span>{project?.authentication}</span>
+                  </li>
+                  <li className="font-poppins">
+                    <span className="font-medium">Payment Gateway: </span>{" "}
+                    <span>{project?.paymentGateway}</span>
                   </li>
                   <li className="font-poppins">
                     <span className="font-medium">Challenges Faced: </span>{" "}

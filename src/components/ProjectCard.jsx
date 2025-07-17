@@ -4,7 +4,7 @@ const ProjectCard = ({ project, handleModal }) => {
   return (
     <div className="bg-[#222222] shadow-xl rounded-md flex flex-col">
       <figure>
-        <img className="w-full rounded-t-md" src={image} />
+        <img className="w-full h-[200px] rounded-t-md" src={image} />
       </figure>
       <div className="p-5 flex flex-col flex-grow space-y-3 text-center">
         <h3 className="text-xl font-bold">{name}</h3>
